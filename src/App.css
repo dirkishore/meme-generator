@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  position: absolute;
+  width: 100%;
+  height: 105px;
+  left: 0px;
+  top: 0px;
+  background-image: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+}
+
+.header > .logo--img {
+  position: absolute;
+  width: 450px;
+  height: auto;
+  left: 20px;
+  top: 19px;
+}
+
+.body-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.body-container > .input-field {
+  position: relative;
+  top: 130px;
+  padding: 10px;
+  margin: 20px 0px;
+  width: 475px;
+  align-items: center;
+}
+
+.body-container > .btn {
+  position: relative;
+  margin-top: 150px;
+  border-radius: 6px;
+  width: 500px;
+  height: 40px;
+  border: none;
+  color: wheat;
+  font-size: 18px;
+  cursor: pointer;
+  background-image: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+}
+
+.body-container > .meme {
+  position: relative;
+  display: block;
+  top: 45px;
+  height: 350px;
+  width: auto;
+}
+
+.body-container .top-text {
+  font-family: fantasy;
+  color: black;
+  position: absolute;
+  top: 355px;
+  font-size: 30px;
+}
+
+.body-container .bottom-text {
+  font-family: fantasy;
+  color: black;
+  position: absolute;
+  top: 740px;
+  font-size: 30px;
+}
