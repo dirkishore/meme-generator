@@ -51,9 +51,11 @@ class Form extends Component {
         <button onClick={this.handleEvent} className="btn">
           Get a new meme image
         </button>
-        <img className="meme" src={this.state.url} alt="" />
-        <h3 className="top-text">{this.state.topText}</h3>
-        <h3 className="bottom-text">{this.state.bottomText}</h3>
+        <div className="img-container">
+          <h3 className="top-text">{this.state.topText}</h3>
+          <img className="meme" src={this.state.url} alt="" />
+          <h3 className="bottom-text">{this.state.bottomText}</h3>
+        </div>
       </div>
     );
   }
